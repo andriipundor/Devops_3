@@ -70,9 +70,9 @@ Vagrant.configure("2") do |config|
      find / -type b -or -type c | wc -l
      find / -type d -perm -1000
      ln -s /etc/hostname /tmp/softlink
-     useradd Nastya
-     touch /home/Nastya/testuser_data
-     sudo chown Nastya:Nastya /home/Nastya/testuser_data
+     useradd Andrii
+     touch /home/Andrii/testuser_data
+     sudo chown Andrii:Andrii /home/Andrii/testuser_data
 
 
    SHELL
